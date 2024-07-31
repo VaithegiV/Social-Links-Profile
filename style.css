@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 16px;
+  height: 100vh;
+}
+
+.container{
+  width: 300px;
+  max-height: 90vh;
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container .list{
+  display: block;
+  text-align: center;
+}
+.container .list .item{
+  position: relative;
+}
+
+.container .list .item img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+
+}
+.container .list .item h4{
+  font-weight: 500;
+  letter-spacing: .5px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.container .list .item .address{
+  margin-top: 2px;
+  font-size: 10px;
+  color: hsl(75, 94%, 57%);
+}
+.container .list .item .profession{
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.buttons button{
+  width: 85%;
+  background-color:  hsl(0, 0%, 20%);
+  border: none;
+  outline: none;
+  padding: 8px 5px;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  font-weight: 500;
+
+}
+.buttons button:hover{
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: #1d1d1d;
+}
